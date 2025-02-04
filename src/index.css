@@ -94,11 +94,13 @@ button {
 form {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 form input {
+  width: 36%;
   padding: 6px 12px;
   outline: none;
+  margin-left: 15px;
 }
