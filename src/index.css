@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.app-section {
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.first-Letter {
+  font-size: 5rem;
+  color: yellowgreen;
+}
+
+ul li {
+  list-style-type: none;
+}
+.userList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.row .detail-section {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.detail-section p {
+  text-align: left;
+}
+.btn-section {
+  display: flex;
+  gap: 10px;
+}
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: beige;
+  transition: 250ms ease-in-out;
+}
+.btn-section #update-btn {
+  background-color: cornflowerblue;
+  
+}
+.btn-section #delete-btn {
+  background-color: tomato;
+}
+
+#create-btn {
+  background-color: mediumseagreen;
+}
+
+#create-btn:hover {
+  background-color: mediumspringgreen;
+}
+.btn-section #update-btn:hover {
+  background-color: darkcyan;
+}
+.btn-section #delete-btn:hover {
+  background-color:firebrick;
+}
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+form input {
+  padding: 6px 12px;
+  outline: none;
+}

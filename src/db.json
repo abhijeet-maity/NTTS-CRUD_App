@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "john doe",
+      "email": "john@email.com",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Jill Kae",
+      "email": "jill@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Kamal Baau",
+      "email": "kamal@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Debu  Mau",
+      "email": "debu@example.com"
+    },
+    {
+      "id": "6ebd",
+      "name": "Abhijeet Maity",
+      "email": "abhi@email.com"
+    }
+  ]
+}
